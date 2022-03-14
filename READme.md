@@ -4,6 +4,10 @@ This is a webpage that applies what I learnt in jQuery.
 
 ### By Charmain Bonareri, 14/03/2022
 
+![Portfolio Landing page](./images/screenshot1.png)
+![Portfolio Landing page](./images/screenshot2.png)
+![Portfolio Landing page](./images/screenshot3.png)
+![Portfolio Landing page](./images/screenshot4.png)
 
 ## Table of contents
 * [Description](#description)
