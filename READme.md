@@ -1,8 +1,8 @@
-# Delani-Studio
+# Intro-to-jQuery
 
-This is a clone website for Delani Studio website.
+This is a webpage that applies what I learnt in jQuery.
 
-### By Charmain Bonareri, 12/03/2022
+### By Charmain Bonareri, 14/03/2022
 
 
 ## Table of contents
@@ -14,7 +14,8 @@ This is a clone website for Delani Studio website.
 * [Authors information](#contact)
 
 ## Description
-This is a clone website that implements everything I have learnt from Bootstrap, Javascript and jQuery to recreate a landing page for a fictional studio as called Delani Studio.
+jQuery is a JavaScript Library. jQuery greatly simplifies JavaScript programming. jQuery is easy to learn. jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+This webpage applies the different styles I have learnt in jQuery to play around with html and css elements.
 
 
 # Setup and Installation Requirements
