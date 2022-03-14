@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    width: 80%;
+    display:flex;
+    align-items: center;
+    float: left;
+    margin-bottom: 2%;
+   }
+
+h1.header1{
+        font-weight: 980;
+        text-align: center;
+        margin: 3%;
+        margin-bottom: 0%;
+        color: #16161f ;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-size: 350%;
+    }
+    p{
+        font-size: large;
+        font-weight: 300;
+        text-align: justify;
+    }
+    h1.header2{
+        font-weight: 500;
+        text-align: center;
+        margin: 3%;
+        margin-bottom: 0%;
+        color: #16161f ;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-size: 350%;
+    }
+    #img2{
+        display: none;
+    }
+    #image-showing {
+        display: none;
+       }
+    
+       .clickable {
+        cursor: pointer;
+        color: #0088cc;
+      }
+ 
+      .clickable:hover {
+        text-decoration: underline;
+      }
+
+    .p2{
+        text-align: center;
+    }  
+    .p3{
+        text-align: center;
+    }  
+    .btn-light{
+        display: none;
+    }
+
+    .bg-color{
+        background-color: black;
+        color: white;
+    }
+    /* #woman3{
+        display: none;
+    } */
+    /* p.fadeIn{
+        display: none;
+    } */
+
+    .portfolioh{
+        font-weight: bold;
+        
+      }
+      .portfolio .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .portfolio .row .col-md-12 {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      #overlay1,
+      #overlay2,
+      #overlay3,
+      #overlay4,
+      #overlay5,
+      #overlay6,
+      #overlay7,
+      #overlay8 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      #work-overlay1,
+      #work-overlay2,
+      #work-overlay3,
+      #work-overlay4,
+      #work-overlay5,
+      #work-overlay6,
+      #work-overlay7,
+      #work-overlay8 {
+        position: absolute;
+        left: 29px;
+        border: 3px solid white;
+        width: 80%;
+        color: #000;
+        display: none;
+        opacity: 4;
+      }
+      
+      .overlay-text {
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: 10px;
+      }
+      
+      .overlay-effect {
+        opacity: 0.3;
+      }
+      
+      .portfolio h2 {
+        margin-top: 20px;
+        font-weight: 500;
+      }
+      .portfolio img {
+        height: 210px;
+        margin: 14px;
+      }
+
+      .card {
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .card-show h4 {
+        font-size: 23px;
+        margin-top: 20px;
+        font-weight: 500;
+      }
+      .card-hidden1,
+      .card-hidden2,
+      .card-hidden3 {
+        font-size: 21px;
+        display: none;
+      }
+      .title {
+        font-size: 23px;
+        font-weight: 500;
+        margin-top: 50px;
+      }

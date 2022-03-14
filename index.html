@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>jQuery</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+  <body>
+     
+    <img id="img1" src="Images/jqueryheader.png" alt="Intro to jQuery" height="600px; width:1000px">
+
+
+   <div id="container">
+     <div id="text">
+<!-- I will give my headings different classes and ids to be able to apply different styling to them.    -->
+        <h1 class="header1"> What is jQuery?</h1>
+           <p class="p1"> jQuery is a JavaScript Library. jQuery greatly simplifies JavaScript programming. jQuery is easy to learn.
+             jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+        <br>
+      <i style="color: #0c7ac3;font-weight:700;">This is a very special page. If you click somewhere, it will tell you what type of HTML element you clicked on</i></p>
+            <p class="p1">It is best practise to give your headings and paragraphs different ids and classes if you want to customise 
+            using jQuery. Let us try and see how jQuery works, if you click on the first heading as above, you should see a pop up message telling you
+          this is a header. If you click on the first paragraph, it should give you an alert that this is the first paragraph. We can give it two alerts.
+        </p>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-light btn-lg btn-block">Light</button>
+    <button type="button" class="btn btn-dark btn-lg btn-block">Dark</button>
+    
+    <!-- <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button> -->
+
+    <div class="styling">
+      <h1 class="header2">peek-a-boo</h1>
+     
+      <div id="image-hidden">
+      <p class="p2">Let's play peek-a-boo. <span class="clickable">Click here</span> to see the surprise! <br>
+        Now, we can use jQuery to show the image below when you click the link above, we can also use that link to hide the image.</p>
+      </div>
+
+      <div id="image-showing">
+        <p class="p3">What a cute image! <span class="clickable">Click here</span> to hide her again.</p>
+      <img id="img2" src="Images/womendancing.png " height="500px; width:800px">
+    </div>
+  </div>
+
+        
+
+  <div class="columns">
+    <div class="row">
+      <div class="col-sm">
+        <h1>Mouse Over Event</h1>
+        <p>The mouseover event occurs when the mouse pointer is over the selected element.<br>
+            The mouseover() method triggers the mouseover event, or attaches a function to run when a mouseover event occurs.<br>
+           <i style="color: hotpink;">(We want when we move the mouse over the image an alert to pop up telling us about the image).</i></p>
+        <img id="girlcode1"  src="Images/womancodin1updateda.png" alt="jQuery" height="350px; width:300px">
+      </div>
+      <div class="col-sm">
+        <h1>Mouse Out</h1>
+        <p id="pmouseout1">The mouseout event occurs when the mouse pointer leaves the selected element.<br>
+          The mouseout() method triggers the mouseout event, or attaches a function to run when a mouseout event occurs.<br>
+          <i style="color: hotpink;">(We want when we move the mouse out the paragraph under the heading mouse out an alert to pop up telling us about the image).</i></p>
+        <img src="Images/mancoding2.png" alt="jQuery" height="350px; width:300px">
+      </div>
+      <div class="col-sm">
+        <h1>Hover Event</h1>
+        <p>The hover() method specifies two functions to run when the mouse pointer hovers over the selected elements.
+
+          This method triggers both the mouseenter and mouseleave events.
+          <br>
+          Note: If only one function is specified, it will be run for both the mouseenter and mouseleave events. 
+         </p>
+        <img src="Images/womancoding3.png" alt="jQuery" height="350px; width:300px">
+      </div>
+    </div>
+  </div>
+    
+  <div class="columns2">
+    <div class="row">
+      <div class="col-sm">
+        <h1 id="hfadein">Fade In Event</h1>
+        <p>The fadeIn() method gradually changes the opacity, for selected elements, from hidden to visible (fading effect).<br>
+          Note: Hidden elements will not be displayed at all (no longer affects the layout of the page).
+          Tip: This method is often used together with the fadeOut() method.<br>
+          <i style="color: hotpink;">(We want when we click heading the image below to fade in slowly).</i></p>
+        <img id="woman3" src="Images/womancoding3.png" alt="jQuery" height="350px; width:300px">
+      </div>
+      
+      <div class="col-sm">
+        <h1 id="hfadeout">Fade Out Event</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facilis porro nemo, et aperiam doloremque dolorum recusandae 
+         similique soluta! Dignissimos quas corrupti eius soluta laudantium, sed dolorem aliquid delectus laboriosam!</p>
+        <img src="Images/womancodin1updated.png" alt="jQuery" height="350px; width:300px">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid text-center portfolio">
+    <h2 class="portfolioh">PORTFOLIO</h2>
+    <div class="row m-3">
+      <div class="col-md-12 mb-5">
+        <div id="overlay1">
+          <img class="overlay" src="./Images/work4.jpg" alt="work4" />
+          <div class="text-center py-3" id="work-overlay1">
+            <p class="overlay-text">Vanta Black</p>
+          </div>
+        </div>
+        <div id="overlay2">
+          <img class="overlay" src="./Images/work3.jpg" alt="work3" />
+          <div class="text-center py-3" id="work-overlay2">
+            <p class="overlay-text"> Mighty Ontario security</p>
+          </div>
+        </div>
+        <div id="overlay3">
+          <img class="overlay" src="./Images/work2.jpg" alt="work2" />
+          <div class="text-center py-3" id="work-overlay3">
+            <p class="overlay-text">Yellow Pyramids</p>
+          </div>
+        </div>
+        <div id="overlay4">
+          <img class="overlay" src="./Images/work1.jpg" alt="work1" />
+          <div class="text-center py-3" id="work-overlay4">
+            <p class="overlay-text">Jim Carrey</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div id="overlay5">
+          <img class="overlay" src="./Images/work5.jpg" alt="work5" />
+          <div class="text-center py-3" id="work-overlay5">
+            <p class="overlay-text">Elena's blog</p>
+          </div>
+        </div>
+        <div id="overlay6">
+          <img class="overlay" src="./Images/work6.jpg" alt="work6" />
+          <div class="text-center py-3" id="work-overlay6">
+            <p class="overlay-text">Mobile buttons app</p>
+          </div>
+        </div>
+        <div id="overlay7">
+          <img class="overlay" src="./Images/work7.jpg" alt="work7" />
+          <div class="text-center py-3" id="work-overlay7">
+            <p class="overlay-text">Burned</p>
+          </div>
+        </div>
+        <div id="overlay8">
+          <img class="overlay" src="./Images/work8.jpg" alt="work8" />
+          <div class="text-center py-3" id="work-overlay8">
+            <p class="overlay-text">Giraffe Restaraunt</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid work text-center">
+    <h2 class="whatwe">WHAT WE DO</h2>
+    <div class="row my-3 text-center">
+      <div class="col-md-4">
+        <div class="card p-5 card1">
+          <div class="card-show1">
+            <img
+              src="./Images/design_icon.png"
+              class="img-fluid"
+              alt="design_icon"/>
+            <h4>DESIGN</h4>
+          </div>
+
+          <div class="card-hidden1">
+            <p class="title">DESIGN</p>
+            <p>
+              Our design practice offers a full range of services including
+              brand strategy, interaction and visual design and user
+              experience testing.
+            </p>
+            <p>
+              Throughout your project, our designers create and implement
+              visual design and workflows, solicit user feedback and work
+              with you to make sure what gets built is what is needed.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-5 card2">
+          <div class="card-show2">
+            <img
+              src="./Images/dev_icon.png"
+              class="img-fluid"
+              alt="dev_icon"
+            />
+            <h4>DEVELOPMENT</h4>
+          </div>
+
+          <div class="card-hidden2">
+            <p class="title">DEVELOPMENT</p>
+            <p>
+              All engineers are fluent in the latest enterprise, mobile and
+              web development technologies.
+            </p>
+            <p>
+              They collaborate with your team to write, and improve code on
+              a daily basis, using proven practices such as test-driven
+              development and pair programming.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-5 card3">
+          <div class="card-show3">
+            <img
+              src="./Images/product_icon.png"
+              class="img-fluid"
+              alt="product_icon"/>
+            <h4>PRODUCT MANAGEMENT</h4>
+          </div>
+
+          <div class="card-hidden3">
+            <p class="title">PRODUCT MANAGEMENT</p>
+            <p>
+              Planning and development is iterative. Because we are constantly coding and testing,
+              the product we always build are always ready to go live.
+            </p>
+            <p>
+              This iterative process allows for changes as business requirements evolve.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script> 
+</body>
+</html>
