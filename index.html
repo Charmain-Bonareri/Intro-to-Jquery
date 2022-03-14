@@ -241,6 +241,59 @@
   </div>
 
 
+
+
+  <div>
+    <h1 id="firstheading" >JavaScript Regular Expressions</h1>
+     <p id="firstparagraph">Setting a type attribute value certainly helps us in limiting what passes as valid input. However, you can go even further and specify a pattern that a username or email address has to follow in order to be considered valid.
+  </p>
+   </div>
+
+<!-- let us create a form, we will use the example we learnt kwa standup ya jana morning example. -->
+
+
+
+  <div class="container1">
+      <h1 class="head1">Fill in the form as per the input examples provided</h1>
+      <p style="text-align: center;">Please note that for purposes of this survey, all data shall be kept confidential.</p>
+      <div id="blanks">
+      <form>
+        <div class="form-group">
+          <label for="name">Name: *</label>
+          <input type="text" id="name" name="name" pattern="_[a-zA-Z]+" class="form-control" placeholder="_Naomi" required>            
+        </div>
+
+        <div class="form-group">
+          <label for="name">Company Email Address: *</label>
+          <input type="email" id="email" name="email" placeholder="student@moringa.com" class="form-control" pattern="^[^@ ]+@[^@ ]+\.[^@ \.]{2,}$" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number: *</label>
+          <input type="number" id="phonenumber" name="phoneNumber" placeholder="0712345678" class="form-control" pattern="[d{10}]" required>
+          <br>
+       </div>
+        <div class="form-group">
+          <label for="name">Age: </label>
+          <input type="number" id="age" name="age" min="10" max="80" class="form-control"  placeholder="30">
+        </div>
+        <div class="form-group">
+          <label for="name"> Experience: </label>
+          <input type="text" id="expeirence" name="experience" placeholder="good,bad,terrible" class="form-control" pattern="[good-bad-terrible]" required>
+        </div>
+        <div class="form-group">
+          <label for="name">Favorite Learning Website: *</label>
+          <input type="url" id="website" name="website" pattern="https://www.w3schools.com/" class="form-control" placeholder="https://w3schools.com" required>
+        </div>
+           <button type="submit" class="btn">Submit</button>
+     </form>
+  </div>
+
+
+
+
+
+
      <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

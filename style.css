@@ -168,3 +168,47 @@ h1.header1{
         font-weight: 500;
         margin-top: 50px;
       }
+
+      #firstheading{
+        font-weight: bold;
+        text-align: center;
+        padding-top: 44px;
+        color: crimson;
+        }
+        
+        #firstparagraph{
+        font-size: large;
+        text-align: center;
+        
+        }
+        .container1{
+            border: 2px;
+            border-color: black;
+            border-style: solid;
+            padding: 10px;
+            border-radius: 10px;
+          }
+        
+        .btn{
+            background-color: rgb(64, 172, 15); 
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 1px;
+            border-color: antiquewhite;
+            box-shadow: 2px;
+        }
+        
+        #story {
+            display: none;
+            color:black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               }
+        
+        .head1{
+            
+                text-align: center;
+                
+            }
+        .head2{
+                text-align: center;
+            }       

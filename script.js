@@ -117,4 +117,25 @@ let overlayTotalNumber =(
       });
   }
 
+  $("#blanks form").submit(function(event) {
+    var nameInput = $("input#name").val();
+    var emailInput = $("input#email").val();
+    var phonenumberInput = $("input#phonenumber").val();
+    var ageInput = $("input#age").val();
+    var websiteInput = $("input#website").val();
+    var experienceInput = $("input#experience").val();
+    $(".name").text(nameInput);
+    $(".email").email(emailInput);
+    $(".phonenumber").number(phonenumberInput);
+    $(".age").number(ageInput);
+    $(".website").url(websiteInput);
+    $(".experience").url(experienceInput);
+
+    $("#story").show();
+    
+    event.preventDefault();
+});
+
+
+
 });
